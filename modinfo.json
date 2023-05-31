@@ -1,0 +1,11 @@
+{
+	"type": "content",
+	"modid": "Lithostrotos",
+	"name": "Lithostrotos",
+	"authors": [ "Farkoth" ],
+	"description": "Bigger shape of bricks",
+	"version": "0.1.0",
+	"dependency": {
+		"game": "1.18.2"
+	}
+}
