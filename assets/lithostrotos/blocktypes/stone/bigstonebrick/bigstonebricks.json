@@ -17,6 +17,8 @@
 	"resistance": 4,
 	"lightAbsorption": 99,
 	"textures": {
+		"up": { "base": "lithostrotos:block/stone/bigstonebrick/updown/{rock}*" },
+		"down": { "base": "lithostrotos:block/stone/bigstonebrick/updown/{rock}*" },
 		"all": { "base": "lithostrotos:block/stone/bigstonebrick/{rock}*" }
 	},
 	"sounds": {
