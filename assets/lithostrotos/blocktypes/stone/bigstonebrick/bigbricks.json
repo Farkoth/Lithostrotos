@@ -15,7 +15,6 @@
 		"states": 
 		["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone",
 		"granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"]},
-		
 		{ "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	"shape": { "base": "block/basic/cube" },
@@ -28,20 +27,20 @@
 	"texturesByType": {
 		"*-north": { 
 			"all": { "base": "game:block/stone/rock/{type}*" },
-			"south": { "base": "game:block/stone/rock/{type}*" }
+			"south": { "base": "game:block/stone/rock/{type}*", "blendedOverlays": [{ "base": "lithostrotos:block/stone/bigbrick/overlay", "blendMode": "Overlay" }] } 
 		},
 		"*-east": { 
 			"all": { "base": "game:block/stone/rock/{type}*" },
-			"west": { "base": "game:block/stone/rock/{type}*" }
+			"west": { "base": "game:block/stone/rock/{type}*", "blendedOverlays": [{ "base": "lithostrotos:block/stone/bigbrick/overlay", "blendMode": "Overlay" }] } 
 
 		},
 		"*-south": { 
 			"all": { "base": "game:block/stone/rock/{type}*" },
-			"north": { "base": "game:block/stone/rock/{type}*" }
+			"north": { "base": "game:block/stone/rock/{type}*", "blendedOverlays": [{ "base": "lithostrotos:block/stone/bigbrick/overlay", "blendMode": "Overlay" }] } 
 		},
 		"*-west": {
 			"all": { "base": "game:block/stone/rock/{type}*" },
-			"east": { "base": "game:block/stone/rock/{type}*" }
+			"east": { "base": "game:block/stone/rock/{type}*", "blendedOverlays": [{ "base": "lithostrotos:block/stone/bigbrick/overlay", "blendMode": "Overlay" }] } 
 		}
 			
 		
